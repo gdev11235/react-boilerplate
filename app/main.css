@@ -1,0 +1,83 @@
+html, h1, ul, li {
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  background-color: white;
+  border-radius: 2px;
+  padding: 6px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#winning-message {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.card {
+  height: 100px;
+  width: 70px;
+  margin: 4px;
+  border: 2px solid black;
+}
+
+.hidden {
+  height: 100px;
+}
+
+.hidden:hover {
+  cursor: pointer;
+  border: 2px solid red;
+}
+
+.revealed {
+  height: 100px;
+}
+
+.suit-image {
+  height: 30px;
+  margin: 10px auto;
+  display: block;
+}
+
+.matched {
+  background-color: #90EE90;
+  opacity: 0.3;
+}
+
+.red {
+  margin: 0;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
+
+.black {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
